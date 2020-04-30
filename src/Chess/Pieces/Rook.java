@@ -1,4 +1,4 @@
 package Chess.Pieces;
 
-public enum ePieceType {
+public class Rook {
 }
