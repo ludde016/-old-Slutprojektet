@@ -18,8 +18,8 @@ public class MenuController {
 
     {
         try {
-            _gameView = FXMLLoader.load(getClass().getResource("Game.fxml)"));
-            _menuView = FXMLLoader.load(getClass().getResource("Start.fxml)"));
+            _gameView = FXMLLoader.load(getClass().getResource("Game.fxml"));
+            _menuView = FXMLLoader.load(getClass().getResource("Start.fxml"));
         } catch (IOException e) {
             e.printStackTrace();
         }
